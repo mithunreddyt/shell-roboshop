@@ -13,6 +13,8 @@ curl -L -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalo
 
 cd /app
 
+unzip /tmp/catalogue.zip
+
 pwd exit
 
 npm install
