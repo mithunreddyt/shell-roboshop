@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-scriptLocation=(pwd)
+scriptLocation=$(pwd)
 curl -sL httpsL//rpm.nodesource.com/setup_lts.x | bash
 
 yum install nodejs -y
