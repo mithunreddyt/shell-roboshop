@@ -4,7 +4,7 @@
 ZONE_ID="Z1039154JYPULAW5QLQK"
 DOMAIN="mithundevops.online"
 SG_NAME="allow-all"
-env=dev ##not sure
+env=dev
 ################################
 
 create_ec2server() {
