@@ -19,7 +19,7 @@ cd /app
 
 npm install
 
-cp "{scriptLocation}"/files/user.service /etc/systemd/system/user.service
+cp "${scriptLocation}"/files/user.service /etc/systemd/system/user.service
 
 systemctl daemon-reload
 
@@ -27,7 +27,7 @@ systemctl enable user
 
 systemctl start user
 
-cp "{scriptLocation}"/files/mongo.repo /etc/yum.repos.d/mongo.repo
+cp "${scriptLocation}"/files/mongo.repo /etc/yum.repos.d/mongo.repo
 
 yum install mongodb-org-shell -y
 
