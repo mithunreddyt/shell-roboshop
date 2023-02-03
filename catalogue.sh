@@ -15,7 +15,7 @@ cd /app
 
 unzip /tmp/catalogue.zip
 
-pwd exit
+cd /app
 
 npm install
 
