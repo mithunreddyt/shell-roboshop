@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-source mongo.repo
 
 yum install mongodb-org -y
 
