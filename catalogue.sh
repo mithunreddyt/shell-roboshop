@@ -13,6 +13,8 @@ curl -L -o /tmp/catalogue.zip https://roboshop-artifacts.s3.amazonaws.com/catalo
 
 cd /app
 
+pwd exit
+
 npm install
 
 cp "${scriptLocation}"/files/catalogue.service /etc/systemd/system/catalogue.service
