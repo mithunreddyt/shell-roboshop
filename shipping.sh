@@ -26,5 +26,8 @@ systemctl start shipping
 
 yum install mysql -y
 
+mysql_secure_installation --set-root-pass RoboShop@1
+
 mysql -h 172.31.6.48 -uroot -pRoboShop@1 </app/schema/shipping.sql
+
 
