@@ -26,5 +26,5 @@ systemctl start shipping
 
 yum install mysql -y
 
-mysql -h 172.31.6.48 -uroot -pRoboShop@1 < /app/schema/shipping.sql
+mysql -h 172.31.6.48 -uroot -pRoboShop@1 </app/schema/shipping.sql
 
