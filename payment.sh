@@ -16,7 +16,7 @@ cd /app
 
 pip3.6 install -r requirements.txt
 
-cp "{scriptLocation}"/files/payment.service /etc/systemd/system/payment.service
+cp "${scriptLocation}"/files/payment.service /etc/systemd/system/payment.service
 
 systemctl daemon-reload
 
