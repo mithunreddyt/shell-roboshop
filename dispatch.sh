@@ -20,7 +20,7 @@ go get
 
 go build
 
-cp "{scriptLocation}"/files/dispatch.service /etc/systemd/system/dispatch.service
+cp "${scriptLocation}"/files/dispatch.service /etc/systemd/system/dispatch.service
 
 systemctl daemon-reload
 
